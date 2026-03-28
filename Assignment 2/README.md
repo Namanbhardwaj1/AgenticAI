@@ -95,8 +95,8 @@ The generated report generally includes:
 
 ## Example Topics
 
-##Role of Artificial Intelligence in Education Systems
-##Machine Learning Applications in Financial Technology (FinTech)
+#Role of Artificial Intelligence in Education Systems
+#Machine Learning Applications in Financial Technology (FinTech)
 
 ## Note
 
