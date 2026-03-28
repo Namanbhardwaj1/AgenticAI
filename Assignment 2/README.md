@@ -95,8 +95,8 @@ The generated report generally includes:
 
 ## Example Topics
 
-* Applications of AI in Healthcare
-* Blockchain Technology in Modern Systems
+Role of Artificial Intelligence in Education Systems
+Machine Learning Applications in Financial Technology (FinTech)
 
 ## Note
 
