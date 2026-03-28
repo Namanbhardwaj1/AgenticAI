@@ -1,1 +1,107 @@
+# Autonomous Research Agent using LangChain
 
+This project is an AI-powered research agent built with Python and LangChain. It is designed to automatically search for information from multiple sources, process the data, and generate a well-organized research report on a given topic.
+
+## Project Description
+
+The purpose of this project is to automate the research workflow. Instead of manually searching and compiling information, the agent performs these tasks intelligently and presents the results in a structured format.
+
+## Features
+
+* **Web Search Capability**: Retrieves up-to-date information using DuckDuckGo.
+* **Knowledge Source Integration**: Uses Wikipedia to gather basic concepts and factual data.
+* **ReAct-based Agent**: Implements LangChain’s reasoning agent for better decision making.
+* **Report Generation**: Produces clean and structured research outputs.
+* **Automatic File Saving**: Stores generated reports in the output folder.
+
+## Requirements
+
+* Python 3.8 or higher
+* Groq API Key (or any compatible API)
+
+## Installation Steps
+
+1. Clone the repository:
+
+```bash id="t1g3p7"
+git clone https://github.com/yourusername/autonomous-research-agent.git
+cd autonomous-research-agent
+```
+
+2. Create a virtual environment:
+
+```bash id="f1mq6m"
+python -m venv venv
+```
+
+3. Activate the environment:
+
+* Windows:
+
+```bash id="a6i1nj"
+venv\Scripts\activate
+```
+
+* macOS/Linux:
+
+```bash id="s6y3rd"
+source venv/bin/activate
+```
+
+4. Install dependencies:
+
+```bash id="o5m2vw"
+pip install -r requirements.txt
+```
+
+5. Configure API Key:
+   Create a `.env` file and add:
+
+```env id="1z2u7n"
+GROQ_API_KEY=your_api_key_here
+```
+
+## How to Use
+
+Run the program:
+
+```bash id="v7c9pl"
+python app.py
+```
+
+Or provide a topic directly:
+
+```bash id="x3k8qt"
+python app.py "Future of Artificial Intelligence"
+```
+
+## Project Structure
+
+* `app.py` – Main script to run the agent
+* `requirements.txt` – Dependencies list
+* `sample_outputs/` – Stores generated reports
+* `README.md` – Project documentation
+
+## Output Format
+
+The generated report generally includes:
+
+1. Title
+2. Introduction
+3. Key Points
+4. Challenges
+5. Future Scope
+6. Conclusion
+
+## Example Topics
+
+* Applications of AI in Healthcare
+* Blockchain Technology in Modern Systems
+
+## Note
+
+This project is developed as part of academic learning to demonstrate the use of LangChain in building intelligent agents.
+
+## License
+
+This project is intended for educational use.
